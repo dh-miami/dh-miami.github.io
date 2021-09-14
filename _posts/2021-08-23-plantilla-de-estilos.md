@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "This post demonstrates post content styles"
+title: "Post con todos los estilos de contenido en markdown"
 categories: junk
 author:
 - Tu nombre
