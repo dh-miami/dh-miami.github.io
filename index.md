@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+Un mensaje de bienvenida aquí
