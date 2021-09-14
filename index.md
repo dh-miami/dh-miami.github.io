@@ -8,4 +8,4 @@
 layout: home
 ---
 
-Un mensaje de bienvenida aquí
+Un mensaje de bienvenida aquí. Recuerda que las informaciones generales sobre tu sitio se cambian en el archivo de configuración. Más adelante podrás configurar la página de bienvenida como te apetezca. 
