@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dublin Core, un lenguaje de metadatos: ejemplo comentado"
-date: 2021-09-27
+date: 2021-09-20
 author: Susanna Allés Torrent
 ---
 
