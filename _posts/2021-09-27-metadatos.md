@@ -16,6 +16,8 @@ Los trozos de código deberán estar explicados y seguidamente reflejados:
 ````
 <?xml version="1.0"?>
 <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+...
+</metadata>
 ````
 
 El título corresponde a.. 
@@ -36,6 +38,11 @@ En la etiqueta "creador" se añade la información correspondiente a ...:
     <dc:description>
         Esta es la descripción del record...
     </dc:description>
+ ````
+ 
+ Otra explicación de otro elemento: 
+ 
+ ````
     <dc:publisher>
         Quien lo publica
     </dc:publisher>
@@ -60,7 +67,6 @@ En la etiqueta "creador" se añade la información correspondiente a ...:
     <dc:language>
         español
     </dc:language>
-    </metadata>
 ````
 
 Con cada uno de los elementos se explica brevemente qué son. 
