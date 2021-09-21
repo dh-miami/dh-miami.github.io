@@ -5,8 +5,6 @@ date: 2021-09-20
 author: Susanna Allés Torrent
 ---
 
-# Dublin Core, un lenguaje de metadatos: ejemplo comentado
-
 Descripción de qué es Dublin Core, para qué sirve, quien lo hizo, quien lo utiliza, .... 
 
 Los ejemplos seleccionados para su codificación: [enlace a la postal](https://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/31/rec/19)
