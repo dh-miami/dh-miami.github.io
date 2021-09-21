@@ -59,7 +59,7 @@ En la etiqueta "creador" se añade la información correspondiente a ...:
     <dc:language>
         español
     </dc:language>
-</metadata>
+    </metadata>
 ````
 
 Con cada uno de los elementos se explica brevemente qué son. 
