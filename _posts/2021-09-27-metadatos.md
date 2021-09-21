@@ -22,7 +22,8 @@ El título corresponde a..
 
 ````
     <dc:title>El título</dc:title>
-    
+````
+  
 En la etiqueta "creador" se añade la información correspondiente a ...: 
 
  ````
