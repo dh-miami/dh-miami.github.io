@@ -18,12 +18,39 @@
                 <xsl:element name="title">
                     <xsl:value-of select="normalize-space(//tei:titleStmt/tei:title[1])"/>
                 </xsl:element>
-                <link rel="stylesheet" href="https://raw.githubusercontent.com/dh-miami/dh-miami.github.io/main/css/main.css"/>
+                <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.scss"/>
+                <link rel="stylesheet" href="https://dh-miami.github.io/css/main.css"/>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             </xsl:element>
 
             <!-- le corps de la page -->
             <body>
+                
+                <div id="metadatos">
+                    <span><b>Metadatos: </b>
+                        <xsl:value-of select="/tei:TEI/tei:teiHeader"/></span>
+                    <br/>
+                    <span>
+                        <b>Online Source: </b>
+                        <xsl:value-of
+                            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:publisher"
+                        /> (<xsl:value-of
+                            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:date"
+                        />), <xsl:element name="a">
+                            <xsl:attribute name="href">
+                                <xsl:value-of
+                                    select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:ref"
+                                />
+                            </xsl:attribute>
+                            <xsl:value-of
+                                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:ref"
+                            />
+                        </xsl:element>
+                    </span>
+                    
+                </div>
+
+    
                 <xsl:apply-templates></xsl:apply-templates>
             </body>
         </xsl:element>
