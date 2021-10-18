@@ -4,64 +4,129 @@
 
     <xsl:strip-space elements="*"/>
     <xsl:template match="comment() | processing-instruction()"/>
- <!--   <xsl:template match="/tei:TEI">
+    <!--   <xsl:template match="/tei:TEI">
         <xsl:apply-templates/>
     </xsl:template>-->
 
     <xsl:output method="html"/>
+    <xsl:template match="/tei:TEI/tei:teiHeader"/>
 
-
-    <xsl:template match="tei:TEI">
+    <xsl:template match="/tei:TEI/tei:text">
         <xsl:element name="html">
             <!-- metadonnees simples. -->
-            <xsl:element name="head">
-                <xsl:element name="title">
-                    <xsl:value-of select="normalize-space(//tei:titleStmt/tei:title[1])"/>
-                </xsl:element>
-                <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.scss"/>
-                <link rel="stylesheet" href="https://dh-miami.github.io/css/main.css"/>
+            <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            </xsl:element>
+                <title>Ejercicio codificación</title>
+                <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.css"/>
 
-            <!-- le corps de la page -->
+            </head>
             <body>
-                
-                <div id="metadatos">
-                    <span><b>Metadatos: </b>
-                        <xsl:value-of select="/tei:TEI/tei:teiHeader"/></span>
-                    <br/>
-                    <span>
-                        <b>Online Source: </b>
-                        <xsl:value-of
-                            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:publisher"
-                        /> (<xsl:value-of
-                            select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:date"
-                        />), <xsl:element name="a">
-                            <xsl:attribute name="href">
-                                <xsl:value-of
-                                    select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:ref"
-                                />
-                            </xsl:attribute>
-                            <xsl:value-of
-                                select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:bibl[@type = 'digital']/tei:ref"
-                            />
-                        </xsl:element>
-                    </span>
-                    
-                </div>
+                <header class="site-header">
+                    <div class="wrapper">
+                        <a class="site-title" rel="author" href="/">DH Miami</a>
+                        <nav class="site-nav">
+                            <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
+                            <label for="nav-trigger">
+                                <span class="menu-icon">
+                                    <!--<svg viewBox="0 0 18 15" width="18px" height="15px">
+                            <path
+                                d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"
+                                ></path>
+                        </svg>--></span>
+                            </label>
+                            <div class="trigger">
+                                <a class="page-link" href="/sobre_mi/">Sobre mi</a>
+                                <a class="page-link" href="/blog/">Blog</a>
+                                <a class="page-link" href="/ejercicios/">Ejercicios</a>
+                            </div>
+                        </nav>
+                    </div>
+                </header>
+                <main class="page-content" aria-label="Content">
+                    <div class="wrapper">
+                        <div class="home">
 
-    
-                <xsl:apply-templates></xsl:apply-templates>
+                            <div id="metadatos">
+                                <h2>
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                    />
+                                </h2>
+                                <br/>
+
+                                <span>
+                                    <b>Editores: </b>
+                                    <xsl:for-each
+                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
+                                        <xsl:value-of select="."/>
+                                        <xsl:text>, </xsl:text>
+                                    </xsl:for-each>
+                                </span>
+                                <br/>
+
+                                <span>
+                                    <b>Descripción de la fuente: </b>
+                                <xsl:value-of
+                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc"
+                                    />
+                                </span>
+                                <br/>
+                            </div>
+
+                            <xsl:apply-templates/>
+                        </div>
+                    </div>
+                </main>
+                <footer class="site-footer h-card">
+                    <!--  <data class="u-url" href="/"></data>-->
+                    <div class="wrapper">
+                        <div class="footer-col-wrapper">
+                            <div class="footer-col">
+                                <p class="feed-subscribe">
+                                    <a href="/feed.xml">
+                                        <!--<svg class="svg-icon orange"></svg>-->
+                                        <span>Subscribe</span>
+                                    </a>
+                                </p>
+                                <ul class="contact-list">
+                                    <li class="p-name">Susanna Alles-Torrent</li>
+                                    <li>
+                                        <a class="u-email" href="mailto:susanna_alles@miami.edu"
+                                            >susanna_alles@miami.edu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="footer-col">
+                                <p>Prueba de la página DH Miami para mis estudiantes que son todos
+                                    estupendos. </p>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <ul class="social-media-list">
+                                <li>
+                                    <a rel="me" href="https://github.com/susannalles"
+                                        title="susannalles">
+                                        <!--<svg class="svg-icon grey"></svg>--></a>
+                                </li>
+                                <li>
+                                    <a rel="me" href="https://twitter.com/sallesto" title="sallesto">
+                                        <!--<svg class="svg-icon grey"></svg>--></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
             </body>
+
         </xsl:element>
     </xsl:template>
-    
-    <xsl:template match="tei:p">
+
+    <xsl:template match="/tei:TEI/tei:text/tei:body/tei:p">
         <p>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
-    
+
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
@@ -73,23 +138,23 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="tei:persName" priority="99">
         <xsl:element name="a">
             <xsl:attribute name="href">
                 <xsl:value-of select="@key"/>
-            </xsl:attribute>                 
+            </xsl:attribute>
             <xsl:attribute name="title">Enlace a la Wikipedia</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    
+
     <xsl:template match="tei:persName">
         <span class="placeName" title="placeName">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="tei:name">
         <span class="name">
             <xsl:apply-templates/>
