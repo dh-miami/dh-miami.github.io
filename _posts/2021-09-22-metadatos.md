@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Dublin Core, un lenguaje de metadatos: ejemplo comentado"
-date: 2021-09-20
+title: "Tarea digital 3: un ejemplo comentado de Dublin Core"
+date: 2021-09-22
 author: Susanna Allés Torrent
 ---
 
