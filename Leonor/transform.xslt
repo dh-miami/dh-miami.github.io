@@ -18,7 +18,7 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                 <title>Ejercicio codificación</title>
                 <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.css"/>
-                <link rel="stylesheet" href="estilo.css"/>
+                <link rel="stylesheet" href="https://dh-miami.github.io/Leonor/estilo.css"/>
             </head>
             <body>
                 <header class="site-header">
