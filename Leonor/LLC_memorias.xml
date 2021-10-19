@@ -7,11 +7,10 @@
       <fileDesc>
          <titleStmt>
             <title>Codificación de las Memorias de Leonor López de Córdoba</title>
-            <editor xml:id="Cindy">Condy Ripoll Martínez</editor>
-            <editor xml:id="Mila">Mila</editor>
-            <editor>Charlotte</editor>
-            <editor>Gabrielle</editor>
-            <editor>Noah</editor>
+            <editor xml:id="Cindy">Cindy Ripoll Martínez</editor>
+            <editor xml:id="Mila">Mila Dvorquez</editor>
+            <editor xml:id="Charlotte">Charlotte Kessinger</editor>
+            <editor xml:id="Gabrielle">Gabrielle Magnant</editor>
          </titleStmt>
          <publicationStmt>
             <p>Ejercicio de codificación colaborativa y transformación de un documento XML-TEI en
@@ -123,8 +122,8 @@
                yo os vivo, nunca moriréis pobres.»</q> E plugo á Dios que murió el tercero día sin
             hablar. </p>
          <p n="13">13. E á todos los sacaban á desherrar al desherradero, como moros después de
-            muertos. El triste de mi hermano <persName>Don Lope López</persName>pidió al Alcaide que
-            nos tenía, que le dijese á <persName>Gonzalo Ruiz Dolante</persName>, que nos hacía
+            muertos. El triste de mi hermano <persName>Don Lope López</persName> pidió al Alcaide
+            que nos tenía, que le dijese á <persName>Gonzalo Ruiz Dolante</persName>, que nos hacía
             mucha caridad é mucha honra por amor de <name type="dios">Dios</name>: <q>«Señor
                Alcaide, sea agora vuesa merced que me tirase estos hierros antes que salga mi ánima
                é que no me sacasen al desherradero, »</q> E él díjole: – <q>«¿Cómo? á moro?» </q> –

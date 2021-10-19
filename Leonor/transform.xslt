@@ -2,7 +2,7 @@
     xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="tei">
 
-    <xsl:strip-space elements="*"/>
+   <!-- <xsl:strip-space elements="*"/>-->
     <xsl:template match="comment() | processing-instruction()"/>
     <!--   <xsl:template match="/tei:TEI">
         <xsl:apply-templates/>
@@ -18,7 +18,7 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
                 <title>Ejercicio codificación</title>
                 <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.css"/>
-
+                <link rel="stylesheet" href="estilo.css"/>
             </head>
             <body>
                 <header class="site-header">
@@ -45,22 +45,22 @@
                 <main class="page-content" aria-label="Content">
                     <div class="wrapper">
                         <div class="home">
-
+                            <h2>
+                                <xsl:value-of
+                                    select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
+                                />
+                            </h2>
                             <div id="metadatos">
-                                <h2>
-                                    <xsl:value-of
-                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"
-                                    />
-                                </h2>
-                                <br/>
-
                                 <span>
                                     <b>Editores: </b>
                                     <xsl:for-each
                                         select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:editor">
                                         <xsl:value-of select="."/>
-                                        <xsl:text>, </xsl:text>
+                                        <xsl:if test="following-sibling::node()">
+                                            <xsl:text>, </xsl:text>
+                                        </xsl:if>
                                     </xsl:for-each>
+                                    
                                 </span>
                                 <br/>
 
@@ -157,6 +157,12 @@
 
     <xsl:template match="tei:name">
         <span class="name">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:q">
+        <span class="q">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
