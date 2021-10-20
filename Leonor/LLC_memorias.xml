@@ -34,40 +34,46 @@
 
          <head>Vida de Doña Leonor López de Córdoba, escrita por ella misma</head>
 
-         <p n="1">1. En el nombre de <name type="dios">Dios Padre</name> y del <name type="dios"
-               >Hijo</name> y del <name type="dios">Espíritu Santo</name>, tres personas y un solo
-               <name type="dios">Dios</name> verdadero en Trinidad, al cual sea dada gloria á el
-               <name type="dios">Padre</name> y al Hijo y al <name type="dios">Espíritu
-            Santo</name>, ansí como era en el comienzo, ansí es agora y por el siglo de los siglos.
-            Amén. En el nombre del qual sobredicho <name type="dios">Señor</name> y de la <name
-               type="santo">Virgen Santa María</name> su Madre y Señora y abogada de los pecadores y
-            á honra y ensalzamiento de todos los ángeles é Santos y Santas de la corte del cielo,
-            Amén. = Por ende, sepan cuantos estas escripturas vieren, como yo <persName
-               key="https://en.wikipedia.org/wiki/Leonor_López_de_Córdoba">Doña Leonor López de
+         <p><num>1.</num> En el nombre de <name type="dios">Dios Padre</name> y del <name
+               type="dios">Hijo</name> y del <name type="dios">Espíritu Santo</name>, tres personas
+            y un solo <name type="dios">Dios</name> verdadero en Trinidad, al cual sea dada gloria á
+            el <name type="dios">Padre</name> y al <name type="dios">Hijo</name> y al <name
+               type="dios">Espíritu Santo</name>, ansí como era en el comienzo, ansí es agora y por
+            el siglo de los siglos. <seg>Amén</seg>. En el nombre del qual sobredicho <name
+               type="dios">Señor</name> y de la <name type="santo">Virgen Santa María</name> su
+            Madre y Señora y abogada de los pecadores y á honra y ensalzamiento de todos los <name
+               type="divinidad">ángeles</name> é <name type="divinidad">Santos</name> y <name
+               type="divinidad">Santas</name> de la corte del cielo, <seg>Amén</seg>. = Por ende,
+            sepan cuantos estas escripturas vieren, como yo Doña <persName
+               key="https://en.wikipedia.org/wiki/Leonor_López_de_Córdoba">Leonor López de
                Córdoba</persName>, fija de mi Señor el <persName
                key="https://es.wikipedia.org/wiki/Mart%C3%ADn_López_de_Córdoba">Maestre Don Martín
-               López de Córdoba</persName> é <persName>Doña Sancha Carrillo</persName>, á quien dé
-               <name type="dios">Dios</name> gloría y paraíso, Juro por esta significanza de +, en
-            que yo adoro como todo esto que aquí es escripto es verdad, que lo ví é pasó por mí; y
-            escríbelo é honra y alabanza de mi Señor <name type="dios">Jesu Christo</name> é de la
-               <name type="santo">Virgen Santa María</name> su madre que lo parió; porque todas las
-            criaturas que estuvieren en tribulación sean ciertas; que yo espero en su misericordia,
-            que si se encomiendan de corazón á la <name type="santo">Virgen Santa María</name>, que
-            ella las consolará y acorrerá como consoló á mí, y porque quien lo oyere sepa la
-            relación de todos mis hechos é milagros que la <name type="santo">Virgen Santa
-               María</name> me mostró; y es mi intención que quede por memoria, mándelo escribir así
-            como vedes. </p>
-         <p>2. Y ansí que yo soy fija del dicho Maestre, que fué de Calatrava en el tiempo del
-               <persName key="https://en.wikipedia.org/wiki/Peter_of_Castile">Señor Rey Don
-               Pedro</persName>, y el dicho Señor Rey le hizo merced de darle la encomienda de
-            Alcántara, que es en la ciudad de Sevilla; y luego le hizo Maestre de Alcántara y á la
-            postre de Calatrava. Y el dicho Maestre, mi padre, era descendiente de la casa de
-            Aguilar y sobrino de <persName>Don Juan Manuel</persName>, fijo de una sobrina suya,
-            fija de un hermano. Y subió á tan grande estado, como se hallará en las Coroninas de
-            España. E como dicho tengo soy fija de <persName>Doña Sancha Carrillo</persName>,
-            sobrina é criada del <persName key="https://en.wikipedia.org/wiki/Alfonso_XI_of_Castile"
-               >Señor Rey Don Alfonso</persName>, de muy esclarecida memoria, que <name type="dios"
-               >Dios</name> dé santo paraíso, padre del dicho <persName
+               López de Córdoba</persName> é Doña <persName>Sancha Carrillo</persName>, á quien dé
+               <name type="dios">Dios</name> gloria y paraíso, <hi rend="mayusculas">juro</hi> por
+            esta significanza de <formula>+</formula>, en que yo adoro como todo esto que aquí es
+            escripto es verdad, que lo ví é pasó por mí; y escríbolo á honra y alabanza de mi <name
+               type="dios">Señor Jesu Christo</name> é de la <name type="santo">Virgen Santa
+               María</name> su madre que lo parió; porque todas las criaturas que estuvieren en
+            tribulación sean ciertas; que yo espero en su misericordia, que si se encomiendan de
+            corazón á la <name type="santo">Virgen Santa María</name>, que ella las consolará y
+            acorrerá como consoló á mí, y porque quien lo oyere sepa la relación de todos mis hechos
+            é milagros que la <name type="santo">Vírgen Santa María</name> me mostró; y es mi
+            intención que quede por memoria, mandélo escribir así como vedes.</p>
+         <p><num>2.</num> Y ansí que yo soy fija del dicho Maestre, que fué de
+               <roleName>Calatrava</roleName> en el tiempo del <persName
+               key="https://en.wikipedia.org/wiki/Peter_of_Castile">Señor Rey Don Pedro</persName>,
+            y el dicho Señor Rey le hizo merced de darle la encomienda de
+               <roleName>Alcántara</roleName>, que es en la ciudad de
+            <placeName>Sevilla</placeName>; y luego le hizo <roleName>Maestre de
+               Alcántara</roleName> y á la postre de <roleName>Calatrava</roleName>. Y el dicho
+            Maestre, mi padre, era descendiente de la <name type="familia">casa de Aguilar</name> y
+            sobrino de <persName key="https://es.wikipedia.org/wiki/Don_Juan_Manuel">Don Juan
+               Manuel</persName>, fijo de una sobrina suya, fija de un hermano. Y subió á tan grande
+            estado, como se hallará en las Coroninas de España. E como dicho tengo soy fija de
+               <persName>Doña Sancha Carrillo</persName>, sobrina é criada del <persName
+               key="https://en.wikipedia.org/wiki/Alfonso_XI_of_Castile">Señor Rey Don
+               Alfonso</persName>, de muy esclarecida memoria, que <name type="dios">Dios</name> dé
+            santo paraíso, padre del dicho <persName
                key="https://en.wikipedia.org/wiki/Peter_of_Castile">Señor Rey Don Pedro</persName>;
             y mi madre falleció muy temprano. </p>
          <p>3. Y así me casó mi padre de siete años con <persName
