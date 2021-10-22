@@ -1,9 +1,9 @@
-title: DH Miami
+title: Digital Humanities @ UM - SPA 410
 author:
   name: Susanna Alles-Torrent
   email: susanna_alles@miami.edu
 description: > # this means to ignore newlines until "show_excerpts:"
-  Prueba de la página DH Miami para mis estudiantes que son todos estupendos.
+  Digital Humanities @ UM es el repositorio del curso SPA410 
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -15,7 +15,7 @@ minima:
   # generate social links in footer
   social_links:
     twitter: sallesto
-    github:  susannalles
+    github:  dh-miami
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
