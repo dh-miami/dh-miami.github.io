@@ -11,9 +11,9 @@ La segunda presentación (de un total de 4) debe centrarse en un proyecto de edi
 
 **1. Elegir un proyecto de edición digital.** 
 
-Para la elección debéis remitirnos a las notas de clase del Lunes 27 de octubre: Allés Torrent, Susanna. (2019). *Introducción a la Text Encoding Initiative. Definición, aplicaciones prácticas y recursos*. Zenodo. https://doi.org/10.5281/zenodo.4430863 En las páginas del pdf 12-13 encontraréis una lista de proyectos de edición digital que podéis utilizar. La lista también está disponible aquí: https://tthub.io/aprende/l1-intro-a-tei/#iii-aplicaciones-pr%C3%A1cticas-y-tipos-de-proyectos 
+Para la elección debéis remitirnos a las notas de clase del Lunes 27 de octubre: Allés Torrent, Susanna. (2019). *Introducción a la Text Encoding Initiative. Definición, aplicaciones prácticas y recursos*. Zenodo. <https://doi.org/10.5281/zenodo.4430863> En las páginas del pdf 12-13 encontraréis una lista de proyectos de edición digital que podéis utilizar. La lista también está disponible aquí: >https://tthub.io/aprende/l1-intro-a-tei/#iii-aplicaciones-pr%C3%A1cticas-y-tipos-de-proyectos> 
 
-Alternativamente, también podéis buscar un ejemplo en este catálogo en línea: https://dig-ed-cat.acdh.oeaw.ac.at/ 
+Alternativamente, también podéis buscar un ejemplo en este catálogo en línea: <https://dig-ed-cat.acdh.oeaw.ac.at/> 
 
 Para llevar a cabo el análisis podéis seguir como estructura la plantilla que ya utilizastéis para el análisis de un proyecto de HD. No se debe responder a cada una de las preguntas, no se trata de rellenar el formulario, sino de escribir un texto analítico y formal. La plantilla está disponible [aquí](). Una vez hayáis decidido vuestra edición digital, me lo debéis comunicar para que los proyectos no se repitan. 
 
@@ -32,4 +32,4 @@ El post deberá incluir imágenes de la edición digital analizada. Para ello, d
 
 Este recurso os puede servir para llevar a cabo vuestro análisis: 
 
-- RIDE, https://ride.i-d-e.de/issues/ Revista especializada en reseñas o evaluaciones de ediciones digitales. Aquí encontraréis un ejemplo que hice hace unos años: https://ride.i-d-e.de/issues/issue-4/entretenida/  :)
+- RIDE, <https://ride.i-d-e.de/issues/> Revista especializada en reseñas o evaluaciones de ediciones digitales. [Aquí](https://ride.i-d-e.de/issues/issue-4/entretenida/) encontraréis un ejemplo que hice hace unos años.   :)
