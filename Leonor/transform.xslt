@@ -208,7 +208,7 @@
     </xsl:template>
 
     <xsl:template match="tei:lg">
-        <div id="poema" style="line-height: 0.8rem; padding-left: 20px;">
+        <div id="poema">
             <xsl:for-each select="tei:l">
                 <xsl:apply-templates/>
                 <br/>
