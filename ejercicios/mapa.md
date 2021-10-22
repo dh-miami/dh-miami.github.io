@@ -17,11 +17,13 @@ Los pasos a seguir son los siguientes:
 
 5. Una vez ya tenéis el mapa, lo debéis completar con alguna imagen para cada uno de los lugares. Podéis buscar en "Google Image Seach" y seleccionad la que más se adecua al momento de la Edad Media en que se sitúa el texto de Leonor.
 
-6. A continuación, debéis hacer el mapa público: id a "Share" y clicad "Anyone with the link". Después, arriba del menú a la derecha elegid "Embed on my site" y copiad el código que os aparece, que será más o menos así:
+6. A continuación, debéis hacer el mapa público: id a "Share" y clicad "Anyone with the link". Después, arriba del menú a la derecha elegid "Embed on my site" y copiad el código que os aparece, que será más o menos así: <https://dh-miami.github.io/ejercicios/>
 
 ```
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13FmSOJzLor4IzLsd3rGfkxo6hUEiwSG8" width="640" height="480"></iframe>
 ```
+
+El código debe pegarse en un documento que se llame "mapa.md" o algo similar, en vuestra carpeta de ejercicios. Recordad también que en la página de la sección bienvenida debemos añadir los enlaces al texto de Leonor y al mapa, tal y como aparece aquí: 
 
 7. Finalmente, debéis escribir un breve texto que preceda el mapa: un texto breve e informativo sobre el texto de Leonor, su vida y qué es lo que refleja este mapa (sitios mencionados y sitios donde vivió, etc.). El texto debe tener entre unas 150 y 300 palabras aproximadamente.
 
