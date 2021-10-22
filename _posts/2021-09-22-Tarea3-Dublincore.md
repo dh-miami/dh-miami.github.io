@@ -5,11 +5,27 @@ date: 2021-09-22
 author: Susanna Allés Torrent
 ---
 
-Descripción de qué es Dublin Core, para qué sirve, quien lo hizo, quien lo utiliza, .... 
+**Fecha límite de entrega lunes 27 de septiembre antes de las 3:30pm**
 
-Los ejemplos seleccionados para su codificación: [enlace a la postal](https://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/31/rec/19)
+A partir del ejercicio sobre la postal de Federico García Lorca con Elliot Williams debéis llevar a cabo la tarea número 3 que consiste en:
 
-Los trozos de código deberán estar explicados y seguidamente reflejados: 
+- Crear un nuevo post en vuestro blog del portfolio
+- Para ello, debéis crear un documento en formato markdown en vuestro respositorio de GitHub que se llamará de la siguiente manera: `2021-09-27-metadatos.md`.
+- Debéis editar los metadatos del inicio donde aparecen vuestro nombre, el título del post (podéis poner el que queráis pero que refleje de que se trata de un post que comenta un archivo de metadatos en Doublin Core), la fecha, etc.
+- Este documento debe estar escrito en Markdown: https://www.markdownguide.org/basic-syntax/ y deberá contener: títulos (uno varios “headings” de distinto nivel), párrafos, enlaces, negritas o cursivas, y sobretodo “snippets” o fragmento de código.
+- La plataforma con la que trabajamos el otro día os será útil para crear el archivo en Dublin Core: <http://metadataetc.org/ dctemplate.php>
+
+El ejemplo seleccionado para la codificación y la creación del archivo Dublin Core esta [postal de Federico García Lorca](https://merrick.library.miami.edu/cdm/compoundobject/collection/chc5324/id/31/rec/19)
+
+**Recordad escribir con cuidado y sin faltas de ortografía.**
+
+La estructura de vuestro post debe ser parecida a la siguiente: 
+
+1. Breve introducción sobre qué es Dublin Core, para qué sirve, quien lo hizo, quien lo utiliza, .... (unas 150 o 300 palabras). 
+2. A continuación debéis comentar cada uno de los elementos que aparecen en el archivo y explicar qué función tiene cada elemento, poniendo mucha atención a escribir bien los fragmentos de código. Por ejemplo,  
+
+
+En primer lugar aparece el prólogo XML ... 
 
 ````
 <?xml version="1.0"?>
@@ -67,6 +83,4 @@ En la etiqueta "creador" se añade la información correspondiente a ...:
     </dc:language>
 ````
 
-Con cada uno de los elementos se explica brevemente qué son. 
-
-Una breve reflexión final. 
+3. En fin, debe cerrar vuestro texto una breve reflexión vuestra experiencia con la codificación de metadatos y el trabajo que se lleva a cabo en la biblioteca.
