@@ -8,30 +8,17 @@ font-family: "Lucida Console", "Courier New", monospace;
 margin: 7px;
 }
 
-#contenidotexto #general {
-    margin: 0px 40px 0px 40px;
-    padding: 1px;
-}
-
-#contenidotexto #Header {
-    text-align: center;
-    height: 30px;
-    margin: 0px;
-    background-color: #1D507F;
-    color: #fff;
-    padding: 5px;
-}
-
-#contenidotexto #fuente{
-    background-color: #f8f9fb;
-    border: 1px solid #BBDEFB;
-    margin: 0px 0px 40px 40px;
-    padding: 10px;
+#poema {
+margin-left: 20px;
+padding-left: 20px;
+line-height: 0.8rem;
+display: block;
+background-color: green;
 }
 
 /* Colores: */
 .persName {
-    color: #968eee;
+    color: #2a7ae2;
 }
 
 .placeName {
@@ -50,7 +37,3 @@ margin: 7px;
     color: #B8860B;
 }
 
-#contenidotexto sup {
-    color: purple;
-    text-decoration: none;
-}

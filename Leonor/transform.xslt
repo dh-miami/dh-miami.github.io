@@ -2,7 +2,7 @@
     xmlns="http://www.w3.org/1999/xhtml" xmlns:tei="http://www.tei-c.org/ns/1.0"
     exclude-result-prefixes="tei">
 
-   <!-- <xsl:strip-space elements="*"/>-->
+    <!-- <xsl:strip-space elements="*"/>-->
     <xsl:template match="comment() | processing-instruction()"/>
     <!--   <xsl:template match="/tei:TEI">
         <xsl:apply-templates/>
@@ -60,15 +60,17 @@
                                             <xsl:text>, </xsl:text>
                                         </xsl:if>
                                     </xsl:for-each>
-                                    
+
                                 </span>
                                 <br/>
 
                                 <span>
                                     <b>Descripción de la fuente: </b>
-                                <xsl:value-of
-                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc"
-                                    />
+                                    <xsl:value-of
+                                        select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc"/>
+                                    <a
+                                        href="https://archive.org/details/n16365laespaamoderna14madruoft/page/n125/mode/2up"
+                                        >https://archive.org/details/n16365laespaamoderna14madruoft/page/n125/mode/2up</a>
                                 </span>
                                 <br/>
                             </div>
@@ -140,6 +142,8 @@
     </xsl:template>
 
     <xsl:template match="tei:persName" priority="99">
+        
+        <xsl:if test="attribute::key">
         <xsl:element name="a">
             <xsl:attribute name="href">
                 <xsl:value-of select="@key"/>
@@ -147,9 +151,21 @@
             <xsl:attribute name="title">Enlace a la Wikipedia</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
+        </xsl:if>
+        <xsl:if test="not(attribute::key)">
+            <span class="persName" title="persName">
+            <xsl:apply-templates/>
+            </span>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template match="tei:persName">
+        <span class="persName" title="persName">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="tei:placeName">
         <span class="placeName" title="placeName">
             <xsl:apply-templates/>
         </span>
@@ -160,20 +176,20 @@
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="tei:q">
         <span class="q">
             <xsl:apply-templates/>
         </span>
     </xsl:template>
-    
+
     <xsl:template match="/tei:bibl/tei:title">
         <i>
-            <xsl:apply-templates></xsl:apply-templates>
+            <xsl:apply-templates/>
         </i>
     </xsl:template>
-    
-    <xsl:template match="tei:ref">
+
+    <xsl:template match="tei:ref" priority="99">
         <xsl:element name="a">
             <xsl:attribute name="href">
                 <xsl:value-of select="@target"/>
@@ -181,6 +197,23 @@
             <xsl:attribute name="title">Enlace</xsl:attribute>
             <xsl:apply-templates/>
         </xsl:element>
+    </xsl:template>
+
+
+
+    <xsl:template match="tei:num">
+        <b>
+            <xsl:apply-templates/>
+        </b>
+    </xsl:template>
+
+    <xsl:template match="tei:lg">
+        <div id="poema" style="line-height: 0.8rem; padding-left: 20px;">
+            <xsl:for-each select="tei:l">
+                <xsl:apply-templates/>
+                <br/>
+            </xsl:for-each>
+        </div>
     </xsl:template>
 
 </xsl:stylesheet>
