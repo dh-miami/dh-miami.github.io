@@ -32,3 +32,36 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
 ```
  <p>Consulta el <a href="https://dh-miami.github.io/ejercicios/mapa.html">mapa con el recorrido de Leonor</a></p>
  ```
+
+3. Cambia otras informaciones que necesitas para que sea igual a tu portfolio. En la sección inferior de la página aparecen las informaciones de tu contacto y la descripción de tu página. Haz que todo luzca igual: 
+
+
+```
+ <ul class="contact-list">
+   <li class="p-name">Susanna Alles-Torrent</li>
+   <li><a class="u-email" href="mailto:susanna_alles@miami.edu">susanna_alles@miami.edu</a></li>
+</ul>
+```
+
+```
+<div class="footer-col">
+<p>La descripción de vuestro sitio.</p>
+</div>
+```
+
+5. Una vez tengáis el archivo XSLT preparado, debéis correr la transformación. Para ello, recordad que en Oxygen se seguían estos pasos (revisa notas Clase16): Document > Transformation > Configure Transformation Scenario. Si ya tenéis uno para Leonor, aseugraros de que está bien configurado y que en "Output" tenéis LLC_memorias.html. Ese es el documento donde se hará la transformación. 
+
+6. Finalmente debéis subir los documentos a vuestra sección de ejercicios, hace una carpeta que se llame código y ahí ponéis el documento xslt, la xslt y el xml. El resultado HTML irá por separado en la carpeta de ejercicios, es decir, la estructura deberá ser: 
+
+```
+- ejercicios 
+    - index.md 
+    - mapa.md
+    - LLC_memorias.html
+    - [código]
+        - LLC_memorias.xml
+        - estilo.css
+        - transform.xslt
+```
+
+7. En fin, debéis también editar la página https://github.com/username/username.github.io/blob/main/ejercicios/index.md y aseguraros de que hay los dos enlaces: al texto de Leonor y al mapa que hemos elaborado. 
