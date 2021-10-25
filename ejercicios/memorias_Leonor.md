@@ -49,6 +49,8 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
 </div>
 ```
 
+4. Intenta cambiar algunos de los colores que aparecen en la CSS (estilo.css). 
+
 5. Una vez tengáis el archivo XSLT preparado, debéis correr la transformación. Para ello, recordad que en Oxygen se seguían estos pasos (revisa notas Clase16): Document > Transformation > Configure Transformation Scenario. Si ya tenéis uno para Leonor, aseugraros de que está bien configurado y que en "Output" tenéis LLC_memorias.html. Ese es el documento donde se hará la transformación. 
 
 6. Finalmente debéis subir los documentos a vuestra sección de ejercicios, hace una carpeta que se llame código y ahí ponéis el documento xslt, la xslt y el xml. El resultado HTML irá por separado en la carpeta de ejercicios, es decir, la estructura deberá ser: 
