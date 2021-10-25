@@ -17,7 +17,7 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
 - Para ver si está todo bien, puedes intentar hacer algún cambio, hacer un "commit" y un "push". 
 - Ahora debes modificar algunas cuestiones en tu documento transform.xslt para personalizarlo con tu portfolio (estamos trabajando en local): 
 
-1. Pon el título de tu portfolio: 
+A. Pon el título de tu portfolio: 
 
 ```
  <header class="site-header">
@@ -27,13 +27,13 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
 </header>
 ```
 
-2. Pon el link correcto que conduzca al mapa que has elaborado en tu portfolio: 
+B. Pon el link correcto que conduzca al mapa que has elaborado en tu portfolio: 
 
 ```
  <p>Consulta el <a href="https://dh-miami.github.io/ejercicios/mapa.html">mapa con el recorrido de Leonor</a></p>
  ```
 
-3. Cambia otras informaciones que necesitas para que sea igual a tu portfolio. En la sección inferior de la página aparecen las informaciones de tu contacto y la descripción de tu página. Haz que todo luzca igual: 
+C. Cambia otras informaciones que necesitas para que sea igual a tu portfolio. En la sección inferior de la página aparecen las informaciones de tu contacto y la descripción de tu página. Haz que todo luzca igual: 
 
 
 ```
@@ -49,11 +49,11 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
 </div>
 ```
 
-4. Intenta cambiar algunos de los colores que aparecen en la CSS (estilo.css). 
+D. Intenta cambiar algunos de los colores que aparecen en la CSS (estilo.css). 
 
-5. Una vez tengáis el archivo XSLT preparado, debéis correr la transformación. Para ello, recordad que en Oxygen se seguían estos pasos (revisa notas Clase16): Document > Transformation > Configure Transformation Scenario. Si ya tenéis uno para Leonor, aseugraros de que está bien configurado y que en "Output" tenéis LLC_memorias.html. Ese es el documento donde se hará la transformación. 
+E. Una vez tengáis el archivo XSLT preparado, debéis correr la transformación. Para ello, recordad que en Oxygen se seguían estos pasos (revisa notas Clase16): Document > Transformation > Configure Transformation Scenario. Si ya tenéis uno para Leonor, aseugraros de que está bien configurado y que en "Output" tenéis LLC_memorias.html. Ese es el documento donde se hará la transformación. 
 
-6. Finalmente debéis subir los documentos a vuestra sección de ejercicios, hace una carpeta que se llame código y ahí ponéis el documento xslt, la xslt y el xml. El resultado HTML irá por separado en la carpeta de ejercicios, es decir, la estructura deberá ser: 
+F. Finalmente debéis subir los documentos a vuestra sección de ejercicios, hace una carpeta que se llame código y ahí ponéis el documento xslt, la xslt y el xml. El resultado HTML irá por separado en la carpeta de ejercicios, es decir, la estructura deberá ser: 
 
 ```
 - ejercicios 
@@ -66,4 +66,4 @@ Hasta ahora hemos estado trabajando con los materiales del repositorio conjunto 
         - transform.xslt
 ```
 
-7. En fin, debéis también editar la página https://github.com/username/username.github.io/blob/main/ejercicios/index.md y aseguraros de que hay los dos enlaces: al texto de Leonor y al mapa que hemos elaborado. 
+G. En fin, debéis también editar la página https://github.com/username/username.github.io/blob/main/ejercicios/index.md y aseguraros de que hay los dos enlaces: al texto de Leonor y al mapa que hemos elaborado. 
