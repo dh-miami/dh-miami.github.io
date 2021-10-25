@@ -16,14 +16,14 @@
             <!-- metadonnees simples. -->
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-                <title>Ejercicio codificación</title>
+                <title>Tarea 6: Codificación XML-TEI y Transformacion </title>
                 <link rel="stylesheet" href="https://dh-miami.github.io/assets/css/style.css"/>
                 <link rel="stylesheet" href="https://dh-miami.github.io/Leonor/estilo.css"/>
             </head>
             <body>
                 <header class="site-header">
                     <div class="wrapper">
-                        <a class="site-title" rel="author" href="/">DH Miami</a>
+                        <a class="site-title" rel="author" href="/">Digital Humanities @ UM - SPA 410</a>
                         <nav class="site-nav">
                             <input type="checkbox" id="nav-trigger" class="nav-trigger"/>
                             <label for="nav-trigger">
@@ -51,6 +51,10 @@
                                 />
                             </h2>
                             <div id="metadatos">
+                                <b>Tarea 6: </b>
+                                <xsl:value-of
+                                    select="/tei:TEI/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
+                                <br/>
                                 <span>
                                     <b>Editores: </b>
                                     <xsl:for-each
@@ -60,7 +64,6 @@
                                             <xsl:text>, </xsl:text>
                                         </xsl:if>
                                     </xsl:for-each>
-
                                 </span>
                                 <br/>
 
@@ -73,6 +76,7 @@
                                         >https://archive.org/details/n16365laespaamoderna14madruoft/page/n125/mode/2up</a>
                                 </span>
                                 <br/>
+                                <p>Consulta el <a href="https://dh-miami.github.io/ejercicios/mapa.html">mapa con el recorrido de Leonor</a></p>
                             </div>
 
                             <xsl:apply-templates/>
