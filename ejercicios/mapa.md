@@ -27,7 +27,7 @@ El código debe pegarse en un documento que se llame "mapa.md" o algo similar, e
 
 7. Finalmente, debéis escribir un breve texto que preceda el mapa: un texto breve e informativo sobre el texto de Leonor, su vida y qué es lo que refleja este mapa (sitios mencionados y sitios donde vivió, etc.). El texto debe tener entre unas 150 y 300 palabras aproximadamente.
 
-La fecha de entrega de esta tarea acabada debe ser el miércoles 27 de noviembre por la mañana.
+La fecha de entrega de esta tarea acabada debe ser el miércoles 27 de octubre por la mañana.
 
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1L5LZ2PhJ0vOYV9gc2MBWLvId6C86Brx9" width="640" height="480"></iframe>
